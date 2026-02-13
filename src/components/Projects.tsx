@@ -69,6 +69,22 @@ const projects = [
     ],
   },
   {
+    title: "Kolektiva",
+    subtitle: "RWA Property",
+    description: "Fractional property ownership on Lisk blockchain.",
+    tags: ["Web3", "RWA"],
+    tech: ["Next.js", "NestJS", "Solidity", "Docker"],
+    icon: "solar:city-linear",
+    image: "/images/kolektiva.jpg",
+    overview:
+      "Kolektiva is a Real-World Asset (RWA) platform enabling fractional real estate ownership via tokenization.",
+    responsibilities: [
+      "Facilitated fractional property ownership by building a user-friendly React/Next.js interface.",
+      "Integrated Thirdweb SDK for secure wallet connectivity and ensured compliance with RWA verification requirements.",
+      "Delivered a winning MVP that secured 2nd Place at the ETHSEA Lisk Hackathon (2024).",
+    ],
+  },
+  {
     title: "Moladin",
     subtitle: "Fintech / Automotive",
     description: "Financing platform serving 10K+ dealers.",
@@ -85,19 +101,19 @@ const projects = [
     ],
   },
   {
-    title: "Kolektiva",
-    subtitle: "RWA Property",
-    description: "Fractional property ownership on Lisk blockchain.",
-    tags: ["Web3", "RWA"],
-    tech: ["Next.js", "NestJS", "Solidity", "Docker"],
-    icon: "solar:city-linear",
-    image: "/images/kolektiva.jpg",
+    title: "Tenzro NFT",
+    subtitle: "AI NFT Marketplace",
+    description: "AI-driven metadata generation for NFT creation.",
+    tags: ["Web3", "AI"],
+    tech: ["Next.js", "Web3", "Solidity"],
+    icon: "solar:gallery-linear",
+    image: "/images/tenzro-nft.jpg",
     overview:
-      "Kolektiva is a Real-World Asset (RWA) platform enabling fractional real estate ownership via tokenization.",
+      "Tenzro NFT simplifies NFT creation using AI. I built the system to generate unique contextual metadata.",
     responsibilities: [
-      "Facilitated fractional property ownership by building a user-friendly React/Next.js interface.",
-      "Integrated Thirdweb SDK for secure wallet connectivity and ensured compliance with RWA verification requirements.",
-      "Delivered a winning MVP that secured 2nd Place at the ETHSEA Lisk Hackathon (2024).",
+      "Developed an AI-driven system to generate unique contextual metadata, simplifying the NFT creation process.",
+      "Utilized Next.js and Thirdweb SDK to enable seamless EVM-based minting and wallet connectivity.",
+      "Delivered a full-cycle MVP supporting ERC-721 and ERC-1155 standards for public sales.",
     ],
   },
   {
@@ -130,22 +146,6 @@ const projects = [
       "Accelerated the MVP launch by 5% through the architectural design of the core backend and admin dashboard.",
       "Developed robust API endpoints using Laravel and Vue.js, improving integration efficiency with the frontend by 10%.",
       "Built foundational marketplace logic for secure user-to-user transactions and data access.",
-    ],
-  },
-  {
-    title: "Tenzro NFT",
-    subtitle: "AI NFT Marketplace",
-    description: "AI-driven metadata generation for NFT creation.",
-    tags: ["Web3", "AI"],
-    tech: ["Next.js", "Web3", "Solidity"],
-    icon: "solar:gallery-linear",
-    image: "/images/tenzro-nft.jpg",
-    overview:
-      "Tenzro NFT simplifies NFT creation using AI. I built the system to generate unique contextual metadata.",
-    responsibilities: [
-      "Developed an AI-driven system to generate unique contextual metadata, simplifying the NFT creation process.",
-      "Utilized Next.js and Thirdweb SDK to enable seamless EVM-based minting and wallet connectivity.",
-      "Delivered a full-cycle MVP supporting ERC-721 and ERC-1155 standards for public sales.",
     ],
   },
 ];
