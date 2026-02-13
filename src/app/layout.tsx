@@ -10,6 +10,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Juniardy Setiowidayoga | Fullstack & Web3 Engineer",
   description: "Fullstack Engineer with 9+ years of experience. Architecting scalable backends and crafting intuitive frontends for AI, Blockchain, and high-impact MVPs.",
+  icons: {
+    icon: {
+      url: "/my-photo.jpg",
+    }
+  }
 };
 
 export default function RootLayout({
