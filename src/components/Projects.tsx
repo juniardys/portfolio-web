@@ -85,22 +85,6 @@ const projects = [
     ],
   },
   {
-    title: "Moladin",
-    subtitle: "Fintech / Automotive",
-    description: "Financing platform serving 10K+ dealers.",
-    tags: ["Fintech"],
-    tech: ["TypeScript", "Express.js", "NestJS", "Kafka", "PostgreSQL"],
-    icon: "solar:car-linear",
-    image: "/images/moladin.jpg",
-    overview:
-      "Moladin is a platform for dealers to request car loans. I supported the engineering ecosystem ensuring reliable loan processing under high traffic.",
-    responsibilities: [
-      "Supported a high-concurrency ecosystem for 10,000+ active dealers by developing core microservices.",
-      "Implemented Redis caching and Kafka message brokers to ensure zero-loss data validity across distributed systems.",
-      "Optimized financing and inventory management features, maintaining high system reliability for daily operational loads.",
-    ],
-  },
-  {
     title: "Tenzro NFT",
     subtitle: "AI NFT Marketplace",
     description: "AI-driven metadata generation for NFT creation.",
@@ -114,6 +98,22 @@ const projects = [
       "Developed an AI-driven system to generate unique contextual metadata, simplifying the NFT creation process.",
       "Utilized Next.js and Thirdweb SDK to enable seamless EVM-based minting and wallet connectivity.",
       "Delivered a full-cycle MVP supporting ERC-721 and ERC-1155 standards for public sales.",
+    ],
+  },
+  {
+    title: "Moladin",
+    subtitle: "Fintech / Automotive",
+    description: "Financing platform serving 10K+ dealers.",
+    tags: ["Fintech"],
+    tech: ["TypeScript", "Express.js", "NestJS", "Kafka", "PostgreSQL"],
+    icon: "solar:car-linear",
+    image: "/images/moladin.jpg",
+    overview:
+      "Moladin is a platform for dealers to request car loans. I supported the engineering ecosystem ensuring reliable loan processing under high traffic.",
+    responsibilities: [
+      "Supported a high-concurrency ecosystem for 10,000+ active dealers by developing core microservices.",
+      "Implemented Redis caching and Kafka message brokers to ensure zero-loss data validity across distributed systems.",
+      "Optimized financing and inventory management features, maintaining high system reliability for daily operational loads.",
     ],
   },
   {
