@@ -13,10 +13,10 @@ export default function Footer() {
       </p>
 
       <a
-        href="mailto:juuns99@gmail.com"
+        href="https://linkedin.com/in/juuns99"
         className="inline-flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-neutral-900 transition-all hover:bg-neutral-200 hover:scale-105"
       >
-        <Icon icon="solar:letter-linear" className="mr-2" />
+        <Icon icon="mdi:linkedin" className="mr-2" />
         Get in Touch
       </a>
 

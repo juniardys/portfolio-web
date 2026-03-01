@@ -21,7 +21,7 @@ export default function About() {
               target="_blank"
               className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors"
             >
-              <Icon icon="solar:link-circle-linear" width="20" />
+              <Icon icon="mdi:linkedin" width="20" />
             </a>
             <a
               href="https://github.com/juniardys"

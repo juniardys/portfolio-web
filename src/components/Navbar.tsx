@@ -39,10 +39,10 @@ export default function Navbar() {
           </a>
         </div>
         <a
-          href="mailto:juuns99@gmail.com"
+          href="https://linkedin.com/in/juuns99"
           className="text-white hover:text-indigo-400 transition-colors"
         >
-          <Icon icon="solar:letter-linear" width="20" />
+          <Icon icon="mdi:linkedin" width="20" />
         </a>
       </div>
     </nav>
